@@ -31,8 +31,8 @@ This document is available as a PDF at [copc-specification-1.0.pdf](copc-specifi
 # Introduction
 
 A COPC file is a LAZ 1.4 file that stores point data organized in a clustered
-octree. It contains a VLR that describe the octree organization of data that
-are stored in LAZ 1.4 chunks.
+octree. It contains a Variable Length Record (VLR) that describes the octree
+organization of data that are stored in LAZ 1.4 chunks.
 
 ![``info`` VLR and the LAZ chunk table allow COPC readers to select and seek through the file.](copc-vlr-chunk-table-illustration.png)
 
